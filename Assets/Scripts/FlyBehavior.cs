@@ -21,6 +21,11 @@ public class FlyBehavior : MonoBehaviour
         {
             _rb.velocity = Vector2.up * _velocity;
         }
+        Touchscreen touchscreen = InputSystem.GetDevice<Touchscreen>();
+        if (touchscreen != null && touchscreen.primaryTouch.press.wasPressedThisFrame)
+        {
+            _rb.velocity = Vector2.up * _velocity;
+        }
     }
 
     private void FixedUpdate()

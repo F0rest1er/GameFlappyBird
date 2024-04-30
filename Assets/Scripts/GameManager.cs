@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using YG;
 
 public class GameManager : MonoBehaviour
 {
@@ -22,6 +23,7 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         _gameOverCanvas.SetActive(true);
+        YandexGame.FullscreenShow();
 
         Time.timeScale = 0f;
     }
