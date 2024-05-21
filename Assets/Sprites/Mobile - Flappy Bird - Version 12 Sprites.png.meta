@@ -886,10 +886,10 @@ TextureImporter:
       name: Mobile - Flappy Bird - Version 12 Sprites_75
       rect:
         serializedVersion: 2
-        x: 3
-        y: 9
-        width: 17
-        height: 12
+        x: 126
+        y: 93
+        width: 64
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -907,10 +907,10 @@ TextureImporter:
       name: Mobile - Flappy Bird - Version 12 Sprites_76
       rect:
         serializedVersion: 2
-        x: 31
-        y: 9
-        width: 17
-        height: 12
+        x: 201
+        y: 92
+        width: 64
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -928,10 +928,10 @@ TextureImporter:
       name: Mobile - Flappy Bird - Version 12 Sprites_77
       rect:
         serializedVersion: 2
-        x: 59
-        y: 9
-        width: 17
-        height: 12
+        x: 276
+        y: 92
+        width: 64
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -975,7 +975,7 @@ TextureImporter:
         width: 30
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
